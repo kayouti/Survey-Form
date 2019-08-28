@@ -1,1 +1,50 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
+<div class="container">
+  <header>
+    <div>
+      <h1 id="title">Health and Wellness Summit 2020 Registration</h1>
+    </div>
+    <div><p id="description">Get ready to be inspired, informed and empowered to take the next transformational step forward in your Healtlh and Wellness adventure.</p></div>
+  </header>
+  <main>
+		<form id="survey-form" method="get" action="https://kayouti.github.io/Survey-Form/thank-you.html">
+			<label id="name-label">Name* </label><input type="text" id="name" placeholder="Name" required>
+			<label id="email-label">Email* </label><input type="email" id="email" placeholder="Email" required>
+			<label>What is your age: </label>	
+			<select name="age" id="dropdown">
+				<option value="range">Select your age</option>
+				<option value="under">Less than 18</option>
+				<option value="18">18 - 24</option>
+				<option value="25">25 - 34</option>
+				<option value="35">35 - 44</option>
+				<option value="45">45 - 54</option>
+				<option value="55">55 and over</option>
+				<option value="none">I perfer not to say</option>
+			</select>
+			<label id="number-label">Additional Guest:</label><input type="number" name="guest" id="number" min="0" max="5" value="0" placeholder="0">(up to 5 guests)
+How did you hear about the event?
+			<input type="radio" name="radio-button" value="social"> Social Media
+			<input type="radio" name="radio-button" value="friend"> A Colleague/Friend
+			<input type="radio" name="radio-button" value="web"> Web Search
+			<input type="radio" name="radio-button" value="email"> Email
+			<input type="radio" name="radio-button" value="attended"> I attended last year
+			<input type="radio" name="radio-button" value="other"> Other
+			What are you hoping to get out of the event? Select all that apply.
+			<input type="checkbox" name="checkbox" value="1"> Information
+			<input type="checkbox" name="checkbox" value="2"> Networking
+			<input type="checkbox" name="checkbox" value="3"> Team-building
+			<input type="checkbox" name="checkbox" value="4"> Other
+			Is there a specific topic you would like to know more during the event? If yes, please list them below.
+			<textarea name="comment" rows="10" cols="50">
+Comments
+</textarea>
+			<input type="submit" id="submit" value="Register">
+		</form>
+	</main>
+  <footer>
+    <div id="footer">
+      <p>Jaclyn H @ Aug 2019</p>
+    </div>
+  </footer>
+</div>
