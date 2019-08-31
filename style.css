@@ -1,1 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
+body {
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+  color: #434344;
+	background-color: #eee;
+}
+
+.container{
+	max-width: 850px;
+  margin: 0 auto;
+  padding: 0;
+	background-color: #fff;
+}
+
+/* Header */
+header{
+  display: flex;
+  justify-content: space-between;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+#image{
+  width: auto;
+}
+
+#description{
+	margin: 25px 50px 25px 50px;
+}
+
+#title{
+	padding: 6px;
+	font-size: 2rem;
+	text-indent: 40px;
+	background-color: #b0e0ea;
+}
+
+/* Main */
+
+main{
+  max-width: 750px;
+  margin: 0 auto;
+	padding: 0 50px;
+	font-size: 0.9rem;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.flex-outer > li > label,
+.flex-outer li p{
+  flex: 1 0 200px;
+  max-width: 520px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 460px;
+}
+
+.flex-outer li p {
+  margin-bottom: 15px;
+}
+
+.flex-outer li button {
+  margin:20px auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+
+.flex-inner li {
+  width: 300px;
+	margin-bottom: 10px;
+}
+
+.flex-inner li label{
+  margin: -5px 5px;
+}
+
+/* Footer */
+
+footer{
+	text-align: center;
+	background-color: #eee;
+}
+
+footer p{
+	margin:0;
+	padding: 10px;
+	font-size: 0.7rem;
+}
