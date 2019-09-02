@@ -154,13 +154,17 @@ footer p{
   header{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     padding: 0;
   }
 	
   #image{
     margin: 0 auto;
+  }
+	
+  #description{
+    margin: 50px auto;
   }
 	
   #name{
