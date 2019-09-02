@@ -2,12 +2,13 @@
 Build a Responsive Website using CodePen.io app and fulfill the given requirements from freeCodeCamp (https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form).
 
 
-## View project in progress
+## View project here
 here: (https://kayouti.github.io/Survey-Form/)
 or
 here: (https://codepen.io/kayouti/full/XvxMgJ)
 
 
+** Using Flexbox CSS to set layout **
 
 ### Requirements
 ```markdown
@@ -33,5 +34,3 @@ here: (https://codepen.io/kayouti/full/XvxMgJ)
 16. Inside the form element, is presented with a button with id="submit" to submit all inputs.
 
 ```
-
-
