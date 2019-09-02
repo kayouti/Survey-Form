@@ -1,56 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
 body {
-	font-weight: 400;
-	font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
   color: #434344;
-	background-color: #eee;
+  background-color: #eee;
 }
 
 /* Page Layout */
 
 .container{
-	max-width: 850px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 0;
-	background-color: #fff;
+  background-color: #fff;
 }
 
 /* Header */
 
 header{
   display: flex;
-	max-width: 850px;
-	margin: 0 auto;
-	padding: 0;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0;
   justify-content: space-between;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #image{
-	max-width: 250px;
-	max-height: 258px;
+  max-width: 250px;
+  max-height: 258px;
 }
 
 #description{
-	max-width: 550px;
-	margin: 50px 30px;
+  max-width: 550px;
+  margin: 50px 30px;
 }
 
 /* Main */
 
 main{
-  max-width: 750px;
-  margin: 0 auto;
-	padding: 0 50px;
-	font-size: 0.9rem;
+ max-width: 750px;
+ margin: 0 auto;
+ padding: 0 50px;
+ font-size: 0.9rem;
 }
 
 #title{
-	padding: 5px;
-	font-size: 2rem;
-	text-align: center;
-	background-color: #b0e0ea;
+  padding: 5px;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #b0e0ea;
 }
 
 .flex-outer,
@@ -117,105 +117,104 @@ main{
 /* Footer */
 
 footer{
-	text-align: center;
-	background-color: #eee;
+  text-align: center;
+  background-color: #eee;
 }
 
 footer p{
-	margin:0;
-	padding: 10px;
-	font-size: 0.7rem;
+  margin:0;
+  padding: 10px;
+  font-size: 0.7rem;
 }
 
 /* @media */
 
 @media screen and (max-width: 600px)
 {
-	header{
-		display: flex;
-		flex-direction: column;
-		width: 450px;
-	  margin: 0 auto;
-	  padding: 0;
+  header{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
   }
 	
-	#image{
-		margin: 0 auto;
-		padding: 0;
-	}
+  #image{
+    margin: 0 auto;
+    padding: 0;
+  }
 	
-	#description{
-		margin: 0 auto;
+  #description{
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 420px)
 {
-	header{
-		display: flex;
-		flex-direction: column;
-		width: 300px;
-	  margin: 0 auto;
-	  padding: 0;
+  header{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
   }
 	
-	#image{
-		margin: 0 auto;
-	}
+  #image{
+    margin: 0 auto;
+  }
 	
-	#name{
-  	max-width: 260px;
-  	margin: 0 auto;
-	}
+  #name{
+    max-width: 260px;
+    margin: 0 auto;
+  }
 	
-	#email{
-  	max-width: 260px;
-  	margin: 0 auto;
-	}
+  #email{
+    max-width: 260px;
+    margin: 0 auto;
+  }
 	
-	#dropdown{
-  	max-width: 260px;
-  	margin: 0 auto;
-	}
-	#number{
-  	max-width: 260px;
-  	margin: 0 auto;
-	}
+  #dropdown{
+    max-width: 260px;
+    margin: 0 auto;
+  }
+  
+  #number{
+    max-width: 260px;
+    margin: 0 auto;
+  }
 	
-	.thank-content{
-		display: flex;
-		flex-direction: column;
-		width: 300px;
-	  margin: 0 auto;
-	  padding: 0;
+  .thank-content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 
 /* Thank You Page */
 
 .thank-container{
-	max-width: 650px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 0;
-	background-color: #fff;
+  background-color: #fff;
 }
-
 .thank-content{
-	display: flex;
-	max-width: 650px;
-	margin: 0 auto;
-	padding: 0;
+  display: flex;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0;
   justify-content: space-between;
-	text-transform: uppercase;
-	font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #thank-image{
-	max-width: 250px;
-	max-height: 258px;
+  max-width: 250px;
+  max-height: 258px;
 }
-
 #thank-description{
-	max-width: 400px;
-	margin: 80px auto;
+  max-width: 400px;
+  margin: 80px auto;
 }
